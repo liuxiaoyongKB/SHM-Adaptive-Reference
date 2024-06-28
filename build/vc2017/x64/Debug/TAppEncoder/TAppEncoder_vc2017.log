@@ -1,0 +1,8 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  encmain.cpp
+  TAppEncTop.cpp
+  TAppEncLayerCfg.cpp
+  TAppEncCfg.cpp
+d:\sourcecode\c++\自适应参考\shm-12.4_adaptive_v2\source\app\tappencoder\tappenccfg.cpp(3095): warning C4267: “=”: 从“size_t”转换到“Int”，可能丢失数据
+  正在生成代码...
+  TAppEncoder_vc2017.vcxproj -> D:\SourceCode\C++\自适应参考\SHM-12.4_adaptive_v2\build\\..\bin\vc2017\x64\Debug\TAppEncoder.exe
