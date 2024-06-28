@@ -1,2 +1,2 @@
 # SHM-Adaptive-Reference
-Programs for our cross-layer adaptive reference approach for SHVC, in SNR scalability at inter-mode.
+Source programs to test the cross-layer adaptive reference approach for SHVC, in SNR scalability at inter-mode.
