@@ -8,4 +8,5 @@ CLAR method can save more bitrate compared with the anchor for equal quality. Mo
 
 # References
 [1] Liu X, Yuan J, Xie R, et al. Enhanced inter-layer prediction for SHVC based on cross-layer adaptive reference[C]. International Forum on Digital TV and Wireless Multimedia Communications. Singapore: Springer Singapore, 2021: 412-425.
+
 [2] JCT-VC, “SHM Software,” [Online]. Available: https://hevc.hhi.fraunhofer.de/svn/svn_SHVCSoftware/tags/SHM-12.4/.
