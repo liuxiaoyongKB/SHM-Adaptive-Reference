@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-c encoder_lowdelay_P_scalable.cfg -c BQTerrace-SNR.cfg -c layers.cfg -i0 D:/Seq/classB/BQTerrace_1920x1080_60.yuv -i1 D:/Seq/classB/BQTerrace_1920x1080_60.yuv --RateControl0=0 --RateControl1=0 --QP0=26 --QP1=22 -f 8 --IntraPeriod0=-1 --IntraPeriod1=-1 --DefaultTargetOutputLayerIdc=0 -b BQTerrace.bin -o0 BQTerrace_rec_l0.yuv -o1 BQTerrace_rec_l1.yuv --LossPatternFile=test.txt &gt;BQTerrace_26_22.log</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>..\..\bin\vc2017\x64\Debug</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-c encoder_lowdelay_P_scalable.cfg -c BQTerrace-SNR.cfg -c layers.cfg -i0 D:/Seq/classB/BQTerrace_1920x1080_60.yuv -i1 D:/Seq/classB/BQTerrace_1920x1080_60.yuv --RateControl0=0 --RateControl1=0 --QP0=26 --QP1=22 -f 8 --IntraPeriod0=-1 --IntraPeriod1=-1 --DefaultTargetOutputLayerIdc=0 -b BQTerrace_dec_8_CU划分_修改.bin -o0 BQTerrace_rec_l0_CU划分_修改.yuv -o1 BQTerrace_rec_l1_CU划分_修改.yuv &gt;BQTerrace_dec_26_22_8_CU划分_修改.log</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\bin\vc2017\x64\Release</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

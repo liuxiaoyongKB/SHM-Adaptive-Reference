@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-b BQTerrace_dec_5帧（丢POC=2）.bin -lid 1 --LossPatternFile=test.txt -o0 BQTerrace_dec_l0_5.yuv -o1 BQTerrace_dec_l1_5.yuv &gt;BQTerrace_dec_26_22_5.log</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\bin\vc2017\x64\Debug</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-b BQTerrace_1920x1080_60_26_22_0.bin -ls 1 -lid 1 --LossPatternFile=0.txt -o0 BQTerrace_dec_l0_600_0.yuv -o1 BQTerrace_dec_l1_600_0.yuv &gt;BQTerrace_dec_26_22_600_0.log</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\bin\vc2017\x64\Release</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
