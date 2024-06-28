@@ -1,0 +1,7 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  TAppDecTop.cpp
+  TAppDecCfg.cpp
+  decmain.cpp
+  正在生成代码...
+decmain.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  TAppDecoderAnalyser_vc2017.vcxproj -> D:\华为项目\SHM-12.4_adaptive\build\\..\bin\vc2017\Win32\Debug\TAppDecoderAnalyser.exe
