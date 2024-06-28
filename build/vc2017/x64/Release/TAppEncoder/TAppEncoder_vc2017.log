@@ -1,0 +1,9 @@
+﻿  encmain.cpp
+  TAppEncCfg.cpp
+d:\sourcecode\c++\自适应参考\shm-12.4_adaptive_v2\source\app\tappencoder\tappenccfg.cpp(3095): warning C4267: “=”: 从“size_t”转换到“Int”，可能丢失数据
+  TAppEncLayerCfg.cpp
+  TAppEncTop.cpp
+  正在生成代码
+  All 7740 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  TAppEncoder_vc2017.vcxproj -> D:\SourceCode\C++\自适应参考\SHM-12.4_adaptive_v2\build\\..\bin\vc2017\x64\Release\TAppEncoder.exe
