@@ -1,7 +1,7 @@
 Programs for our cross-layer adaptive reference approach for SHVC, in SNR scalability at inter-mode.
 
 # Cross-Layer Adaptive Reference based SHM Encoder
-This encoder is used to evaluate the performance of our CLAR methodology [1] The main part is modified from the standard reference software SHM 12.4 [2], 
+This encoder is used to evaluate the performance of our CLAR methodology [1] in SNR scalability at Low-delay P configration. The main part is modified from the standard reference software SHM 12.4 [2], 
 coded with C++. To work out bandwidth usage and error propagation problems resulting from information loss in time-varing networks, reference pictures 
 with high quality for base layer (BL) are derived according to conditions of pictures loss at enhancement layer (EL) at deocoder end. Intuitively, the proposed 
 CLAR method can save more bitrate compared with the anchor for equal quality. Moreover, this scheme eases the effect of lost pictures at decoder end.
